@@ -26,20 +26,20 @@ int main()
 		
 	cout << "Age of recipient: ";
 	cin >> friend_age;
-	if((friend_age>=0)||(friend_age<=110))
-		cout << "I hear you just had a birthday and you are " << friend_age << " years old";
+	if((friend_age>=0)&&(friend_age<=110))
+		cout << "I hear you just had a birthday and you are " << friend_age << " years old.\n";
 	else
 		simple_error("you're kidding!");
 	
 	if(friend_age < 12)
-		cout << "Next year you will be " << friend_age+1 << ".";
+		cout << "Next year you will be " << friend_age+1 << ".\n";
 	else if(friend_age == 17)
-		cout << "Next year you will be able to vote.";
+		cout << "Next year you will be able to vote.\n";
 	else if(friend_age > 70)
-		cout << "I hope you are enjoying retirement.";
+		cout << "I hope you are enjoying retirement.\n";
 	
-	cout << "Yours sincerely, \n";
+	cout << "Yours sincerely,";
 	cout << "\n";
-	cout << "Gergo";
+	cout << "Gergo\n";
 	return 0;
 }
