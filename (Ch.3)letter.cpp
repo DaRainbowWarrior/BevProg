@@ -38,8 +38,7 @@ int main()
 	else if(friend_age > 70)
 		cout << "I hope you are enjoying retirement.\n";
 	
-	cout << "Yours sincerely,";
-	cout << "\n";
+	cout << "Yours sincerely,\n\n";
 	cout << "\n";
 	cout << "Gergo\n";
 	return 0;
